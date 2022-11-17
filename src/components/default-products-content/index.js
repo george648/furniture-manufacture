@@ -1,0 +1,3 @@
+import DefaultProductsContentContainer from './DefaultProductsContentContainer'
+
+export default DefaultProductsContentContainer

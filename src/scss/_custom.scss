@@ -1,0 +1,207 @@
+@import url("./fonts/Gilroy/stylesheet.css");
+
+.card {
+  overflow: hidden;
+}
+
+.card-header {
+  min-height: 4.2rem;
+}
+
+.notification-dropdown {
+  max-height: $min-height-dropdown;
+  width: $min-width-dropdown;
+  transform: translate(-1.25rem, 19px) !important;
+}
+
+.table {
+  font-family: $font-family-gilroy-semi-bold;
+}
+
+.table .default-product-view th,
+.table .default-product-view span {
+  color: $table-header-color;
+  &:first-child {
+    padding-left: 1rem;
+  }
+}
+
+.small-text {
+  font-size: $small-text;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+}
+
+.striped-bg-color {
+  background-color: $striped-table-bg;
+}
+
+.price-bg-color {
+  background-color: $price-bg-color;
+}
+
+.empty-table-text-color {
+  color: #949494;
+}
+
+.btn-outline-primary {
+  &:hover {
+    color: $white;
+    background-color: rgba($color: $primary-base, $alpha: 0.85);
+  }
+}
+
+.pointer-event-none {
+  pointer-events: none;
+}
+
+.btn-check:checked + .btn,
+.btn-check:active + .btn,
+.btn:active,
+.btn.active,
+.show > .btn.dropdown-toggle,
+.btn-check:focus + .btn,
+.btn:focus {
+  color: $white;
+  background-color: rgba($color: $primary-base, $alpha: 0.75);
+}
+
+.nav-pills {
+  .nav-link {
+    &.active {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+}
+
+.modal-content {
+  overflow: hidden;
+}
+
+.createble-select .css-1s2u09g-control {
+  border-radius: $border-radius-buttons;
+}
+
+.css-14el2xx-placeholder {
+  font-size: $form-label-font-size;
+  font-family: $font-family-gilroy-regular;
+}
+
+.material-dropdown {
+  min-width: 11.5rem;
+}
+
+.resize-0 {
+  resize: none;
+}
+
+.text-black {
+  color: $black;
+}
+
+.image-card-photo {
+  height: 14.5rem;
+  width: 14.5rem;
+}
+
+.font-size-14 {
+  font-size: $font-size-14;
+}
+
+.create-product-view-th:not(:first-child) {
+  text-align: center;
+}
+
+.create-product-view-th:first-child {
+  padding-left: 1.5rem;
+}
+
+.css-g1d714-ValueContainer .css-1rhbuit-multiValue {
+  border-radius: $border-radius-buttons;
+  background-color: $primary-color;
+}
+
+.css-g1d714-ValueContainer .css-1rhbuit-multiValue .css-xb97g8 {
+  color: $white;
+}
+
+.css-g1d714-ValueContainer .css-1rhbuit-multiValue .css-12jo7m5 {
+  color: $white;
+}
+
+.nav-tabs {
+  border: none;
+  .nav-item {
+    position: relative;
+  }
+  .nav-link {
+    cursor: pointer;
+    font-family: $font-family-gilroy-regular;
+    margin: 0;
+    padding-left: 0;
+    font-size: 0.875rem;
+    padding-right: 0;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0px;
+    &.active {
+      cursor: pointer;
+      font-weight: bold;
+      font-family: $font-family-gilroy-semi-bold;
+    }
+    &.active::after {
+      content: "";
+      width: 6px;
+      height: 100%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background-color: $primary-color;
+    }
+
+    & svg {
+      margin-left: 0 !important;
+    }
+  }
+}
+
+.tech-data-to-print {
+  display: none;
+}
+
+@media print {
+  .tech-data,
+  .tech-data-header,
+  .main-header,
+  .sidebar {
+    display: none;
+  }
+  .tech-data-to-print {
+    display: block;
+  }
+}
+
+html:not([dir="rtl"]) .btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-bottom-right-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+
+.form-label {
+  font-family: $font-family-gilroy-semi-bold;
+}
+
+.nav .nav-item .nav-link {
+  font-family: $font-family-gilroy-regular;
+}
+
+.printed-tech-map:not(:first-child) {
+  text-align: center;
+}
+
+.orders-filter::placeholder {
+  color: $primary-color;
+}

@@ -1,0 +1,3 @@
+import CreateProductCategoryContainer from './CreateProductCategoryContainer'
+
+export default CreateProductCategoryContainer

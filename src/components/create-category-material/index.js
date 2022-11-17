@@ -1,0 +1,3 @@
+import CreateCategoryMaterialContainer from './CreateCategoryMaterialContainer'
+
+export default CreateCategoryMaterialContainer

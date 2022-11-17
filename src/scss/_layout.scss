@@ -1,0 +1,7 @@
+.wrapper {
+  padding: 1rem;
+  width: 100%;
+  @include ltr-rtl("padding-left", calc(var(--cui-sidebar-occupy-start, 0) + 1rem));
+  will-change: auto;
+  @include transition(padding .15s);
+}
